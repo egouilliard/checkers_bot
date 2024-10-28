@@ -1,6 +1,18 @@
 # Checkers
 
-## TUI
+## Overview
+This repository contains a Checkers game implementation with both a Text User Interface (TUI) and a Graphical User Interface (GUI). It also includes a chess bot that can suggest moves for the game.
+
+## Installation
+To install the necessary dependencies, run the following command:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+
+### TUI
 - Current implementation includes 
     - Board display
     - Piece display
@@ -9,19 +21,17 @@
     - Added functionality to request user input to create a board of size n*2+2
     - Added AssertionErrors
 
+### Running the GUI
+To run the GUI, run the following command from the terminal:
 
-## Running the GUI
-> Note that this requires an installation of *pygame* to your environment
-
-To run the GUI, run the following command from the terminal 
-
-                   python3 GUI.py
-
+```
+python3 GUI.py
+```
 
 - Input the board size as requested into the terminal
 - Enjoy the game
 
-## Running the Game Logic:
+### Running the Game Logic
 
 Going through the basics:
 1. This must be done through ipython3
@@ -44,7 +54,13 @@ To play or test the Game manually:
 2. Create the game with your players and Board Two Options to play the game:
 3. Either play the Game like you would in the Connect4 example or play using Game.play()
 
-## Running the Bot:
-1. Create instance of SmarterBot using parameters from the game that the bot
-  should suggest moves for.
-2. Run method .suggest_move() on this instance
+### Running the Bot
+1. Create an instance of SmarterBot using parameters from the game that the bot should suggest moves for.
+2. Run the method `.suggest_move()` on this instance.
+
+## Contributing
+If you would like to contribute to this repository, please follow these guidelines:
+1. Fork the repository
+2. Create a new branch for your feature or bugfix
+3. Make your changes
+4. Submit a pull request with a clear description of your changes
