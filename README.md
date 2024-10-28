@@ -1,19 +1,5 @@
 # Checkers
 
-## Members:
-- Adonnis Ortiz : GUI
-- Erin Matthews :TUI
-- Edouard Gouilliard : Game Logic
-- Federico Guglielmotti : BOT
-
-## Milestone 2 Feedback:
-- Move all functions specific to checkers to game class
-- Board class should be easily portable to another game like chess
-- Explain why we have a separate player class
-- Commit requirements.txt to github repo
-- Prompt user for board size before creating it
-- Implement ability to take multiple pieces in one move
-
 ## TUI
 - Current implementation includes 
     - Board display
@@ -34,29 +20,6 @@ To run the GUI, run the following command from the terminal
 
 - Input the board size as requested into the terminal
 - Enjoy the game
-
-__*Revisions to the code*__
-> Implemented support for the is_king parameter
->
-> Implemented player support 
->
-> Game logic has been applied
-> > Piece implementation, piece movement, and game rules
-> 
-> Addition of the GUIgame class
->  > adding support for more Checkers_ed.py functionality
-
-__*To Impove*__
-> Completely define, turn based logic, and player specific turn rules for the game
-> 
-> Define the winner withint the pygame window
-> 
-> GUI/HCI functionality that would improve user experience
-> > Turn display
-> > 
-> > Squares to which the piece can move can be highlighted
-> > 
-> > Smoother implementation and collection of board size
 
 ## Running the Game Logic:
 
